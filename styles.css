@@ -1,0 +1,164 @@
+/* Nadia Khan */ 
+
+/* Notes on where I am struggling 
+- font form google will not upload onto css, have tried @import method as well
+- third image either uplaods small or doesntt upload at all 
+*/
+
+/*Molle (h1, h2, h3)
+Montserrat (h4, p, q, small, nav, button, form)
+
+
+/* Branding */
+:root {
+    --yellow: #F6D64A;
+    --teal: #55BCD5;
+    --purple: #9B26B0;
+    --blue: #499BD2;
+    --dark-gray: #222222;
+    --light-gray: #EAEAEA;
+    --white: #FFFFFF;
+    --black: #000000;
+
+    --font-heading: 'Molle', cursive;
+    --font-body: 'Montserrat', sans-serif;
+}
+
+/* CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* WHERE CODING BEGINDS*/ 
+@media (max-width: 320px) {
+  
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #55BCD5; 
+    color: #000000;
+    align-items: center;
+}
+
+/*Menu*/
+
+nav {
+    width: 100%; 
+    max-width: 320px; /
+    text-align: center;
+}
+
+/* Plan Section */
+#plan {
+    background-color: #F6D64A; 
+    text-align: center;
+}
+
+#plan h3 {
+    font-family: 'Molle', cursive;
+    font-size: 2rem;
+    color: #000000; 
+    margin-bottom: ;
+}
+
+#plan section:nth-child(1) img, 
+#plan section:nth-child(2) img,
+#plan section:nth-child(3) img {
+    background-color: #499BD2; 
+}
+
+}
+
+
+    h1 {
+        font-size: 1.8rem; 
+        font-family: ;
+    }
+
+    h2 {
+        font-size: 1.4rem; 
+    }
+
+    p {
+        font-size: 0.8rem; 
+    }
+
+
+@media (max-width: 768px) {
+    body {
+        font-size: 1rem; 
+    }
+
+    h1 {
+        font-size: 2rem; 
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 0.9rem; 
+    }
+}
+
+@media (max-width: 1500px) {
+    body {
+        font-size: 1.1rem; 
+    }
+
+    h1 {
+        font-size: 2.5rem; 
+    }
+
+    h2 {
+        font-size: 2rem; 
+    }
+
+    p {
+        font-size: 1rem; 
+    }
+}
